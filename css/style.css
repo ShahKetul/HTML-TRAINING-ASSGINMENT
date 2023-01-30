@@ -1,84 +1,59 @@
-body{
-    background-color: #FAFAFA;
-    width: 1345px;
+.main{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
 }
-
 #heroimg{
     border-radius: 50%;
-    width: 576px;
-    height: 576px;
+    width: 38%;
+    height: 38% ;
     box-shadow: 0px 4px 31px #0000000A;
+    margin-top: 72px;
+    margin-left: 166px;
     border: 20px solid #FFFFFF;
-    float: left;
 }
+.submain{
+    margin-top: 106px;
+    margin-left: 164px;
 
-#main{
-    position: relative;
-    top: 72px;
-    left: 128px;
-    bottom: 72px;
 }
-
-#submain{
-    float: left;
-    position: relative;
-    left: 163px;
-    width: 500px;
-}
-
 #header-logo{
-    position: relative;
-    top: 34px;
+
     width: 272px;
     height: 58px;
 }
-
 #text1{
     font: 300 40px/47px Roboto;
     color: #3E3E3E;
-    position: relative;
-    top: 53.17px;
-}
-
-#expert{
-    color: #C8242F;
-    font:900 40px/53px Roboto;
+    margin-top: 19px;
 }
 
 #text2{
-    position: relative;
-    top: 85.04px;
+    margin-top: 31.5px;
     font: 25px/33px Roboto;
     color: #3E3E3E;
 }
-
-#usrname{
-    display: block;
-    width: 400px;
+.usrnamepass{
+    width: 77%;
     height: 21px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
-    position: relative;
-    top: 108.49px;
     padding: 14.5px;
     font: 15px/20px Roboto;
 }
-
-#passwd{
-    display: block;
-    border: 1px solid #ADADAD;
-    border-radius: 5px;
-    width: 400px;
-    height: 21px;
-    position: relative;
-    top: 135.49px;
-    padding: 14.5px;
-    font:15px/20px Roboto;
+#usrname{
+    margin-top: 23px;
 }
-
+#passwd{
+    margin-top: 27px;
+}
+.blfp{
+    display: flex;
+    width: 83%;
+}
 #login{
-    position: relative;
-    top: 165px;
+
     width: 138px;
     height: 45px;
     border-color: #C8242F;
@@ -86,26 +61,69 @@ body{
     background: #C8242F;
     font:18px/24px Roboto;
     color: #FFFFFF;
+    margin-top:30px
 }
 
 #fp{
     color: #ADADAD;
-    float: right;
-    position: relative;
-    top: 178px;
-    right: 69px;
+    margin-top: 42px;
+    margin-left: 170px;
     font: 15px/20px Roboto;
 }
-
 #newMember{
     color: #ADADAD;
     font: 15px/20px Roboto;
-    position: relative;
-    top: 220px;
-    right: 140px;
+
     text-decoration: none;
 }
 
 #register{
     color: #C8242F;
 }
+#nr{
+    margin-top: 23px;
+    margin-left: 5px;
+}
+@media screen and (max-width:1200px) {
+    .submain{
+        margin-left: 9%;
+        width: 300px;
+
+    }
+    #heroimg{
+        margin-left: 0px;
+        width: 50%;
+        height: 50%;
+    }
+ }
+
+ @media screen and (max-width:830px) {
+    .main{
+        flex-direction: column;
+    }
+    .submain{
+        margin-left: 25%;
+        width: 300px;
+
+    }
+    #heroimg{
+        margin-left: 25%;
+        width: 40%;
+        height: 40%;
+    }
+ }
+ @media screen and (max-width:436px) {
+    .main{
+        flex-direction: column;
+    }
+    .submain{
+        margin-left: 10%;
+        width: 300px;
+
+    }
+    #heroimg{
+        margin-left: 10%;
+        width: 50%;
+        height: 50%;
+    }
+ }
