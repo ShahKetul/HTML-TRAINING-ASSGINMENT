@@ -112,7 +112,7 @@
         height: 50%;
     }
  }
- @media screen and (max-width:436px) {
+ @media screen and (max-width:450px) {
     .main{
         flex-direction: column;
     }
