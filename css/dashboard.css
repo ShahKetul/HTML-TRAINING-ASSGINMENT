@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .header{
     display: flex;
     width: 100%;
@@ -19,7 +23,7 @@
     margin-left: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 142px;
+    /* width: 142px; */
     height: 30px;
 
 }
@@ -83,354 +87,9 @@
     width: 22px;
     height: 22px;
 }
-#asi
-{
-    margin-bottom: 10px;
-    font-size: 19px;
-    color: #C8242F;
-}
-#asi1
-{
-    margin-bottom: 10px;
-    font-size: 19px;
-    color: #000000;
-}
-.icon{
-    width: 23px;
-    height: 34px;
-    margin-left: 17px;
-    padding-right: 10px;
-    position: relative;
-    top: 10px;
- }
- .names
- {
-    margin-left: 12px;
- }
- .options
- {
-    margin-top: 2%;
-    margin-left: 2%;
-    width: 14%;
-    height: 1279px;
-    display: flex;
-    flex-direction: column;
- }
- #ana
- {
-    margin-top:10px;
- }
- #inb
- {
-    margin-top:10px;
- }
- #his
- {
-    margin-top:10px;
- }
- #user
- {
-    margin-top:10px;
- }
- #set
- {
-    margin-top:10px; 
- }
-    /* position: relative; */
-    /* left: 22px; */
-    /* padding-left: 10px;
-    padding-right: 10px; */
-.container
-{   
-    
-    background-color: whitesmoke;
-    height: 1310px;
-    width: 83%;
-}
-    
-#head1
-{
-   
-    width: 146px;
-    margin-left: 5%;
-    margin-top: 39px;
-    height: 39px;
-    font-size: 30px;
-    color: #000000;
-}
 
+/* sidebar */
 
-.items
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-top: 26px;
-    justify-content: space-between;
-    width: 92%;
-   
-}
-.item
-{   
-    display: flex;
-    width: 202px;
-    height: 104px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    justify-content: center;
-    align-items: center;
-}
-#star
-{
-    height: 40px;
-    width: 40px;
-    margin-left: 20px
-}
-#no
-{
-    width: 77px;
-    font-size: 27px;
-    height: 33px;
-    margin-top: 17px;
-    margin-bottom: 2px
-}
-#info
-{
-    padding-left: 10px;
-}
-#desc
-{
-    width: 113px;
-    height: 20px;
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 17px;
-}
-
-.midcontain
-{   
-    display: flex;
-    background: white;
-    top: 100px;
-    left: 4%;
-    margin-left: 5%;
-    margin-top: 49px;
-    width: 92;
-    width: 92.7%;
-    /* height: 400px; */
-    justify-content: space-between;
-    background: #FAFAFA 0% 0% no-repeat padding-box;
-}
-.graph
-{
-    background-color: white;
-    width: 65%;
-   
-}
-.pie
-{
-    background-color: white;
-   
-    width: 32%;
-   
-}
-a{
-    text-decoration: none;
-    color: #ADADAD;
-}
-.sale
-{
-    display: flex;
-    
-    background-color: white;
-    align-items: center;
-    justify-content: space-between
-}
-#text
-{
-    font-size: 22px;
-    margin-left: 20px
-   
-}
-.links
-{
-    padding: 10px;
-}
-
-#data-graph
-{
-    width: 94%;
-    height: 300px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#text1
-{
-    padding-left: 29px;
-    /* padding-top: 21px; */
-    font-size: 22px
-}
-#pie-chart
-{
-    margin-left: 44px;
-   width:66%;
-}
-.country
-{
-  
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-right: -21px;
-    margin-left: 48px;
-}
-.radio
-{
-    height: 34px;
-    width: 34px;
-}
-.radco
-{
-    width:120px;
-}
-.ad
-{
-    display: inline-block;
-    margin-bottom: 0px;
-    position: relative;
-    bottom: 10px;
-}
-.links{
-    border-bottom: 1px solid red;
-}
-
-
-
-
-.bdy{
-    width: 92.7%;
-    height: 672px;
-    margin-left: 5%;
-    margin-top: 35px;
-    
-    background-color: white
-}
-.h{
-        
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    height: 38px;
-}
-.tab
-{
-    margin-left: 31px;
-    width: 94%;
-}
-#in{
-    width: 82px;
-    height: 29px;
-    margin-left: 35px;
-    font: 22px/29px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-
-}
-#v{
-
-    width: 43px;
-    height: 16px;
-    font: 12px/16px Roboto;
-    letter-spacing: 0px;
-    color: #C8242F;
-    margin-right: 35px;
-}
-.inv{
-    padding-left: 30px;
-}
-.co{
-   
-    padding-left: 60px;
-    text-align: left;
-}
-.em{
-    padding-left: 110px;
-    text-align: left;
-}
-.du{
-    padding-left: 55px;
-    text-align: left;
-}
-.st{
-    padding-left: 70px;
-    text-align: left;
-    
-}
-.am{
-    padding-left: 80px;
-    text-align: left;
-}
-.hw1{
-    width: 61px;
-height: 20px;
-font: normal normal normal 12px/20px Roboto;
-letter-spacing: 1.5px;
-color: #ADADAD;
-display: inline;
-}
-.hw{
-    width: 61px;
-height: 20px;
-font: normal normal normal 15px/20px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-display: inline;
-padding-top: 27px;
-}
-td{
-   position: relative;
-    padding-top: 25px;
-    padding-bottom: 12px;
-    border-top: 1px solid #E9E9E9 ;
-}
-.high{
-    width: 50px;
-height: 26px;
-/* UI Properties */
-background:#cbf6d3 0% 0% no-repeat padding-box;
-border-radius: 5px;
-text-align: left;
-font: normal normal normal 15px/20px Roboto;
-letter-spacing: 0px;
-color: #3CDD5F;
-}
-.pd{
-    width: 50px;
-height: 26px;
-/* UI Properties */
-background: #F8F8F8 0% 0% no-repeat padding-box;
-border-radius: 5px;
-text-align: left;
-font: normal normal normal 15px/20px Roboto;
-letter-spacing: 0px;
-color: #BABABA;
-}
-.fd{
-    width: 50px;
-height: 26px;
-/* UI Properties */
-background: #FFF5F5 0% 0% no-repeat padding-box;
-border-radius: 5px;
-text-align: left;
-font: normal normal normal 15px/20px Roboto;
-letter-spacing: 0px;
-color: #FF4545;
-}
-.asi-con
-{
-    display: flex;
-    justify-content: space-between;
-}
 .sidebar
 {
     /* background: #FFF3F4 0% 0% no-repeat padding-box; */
@@ -440,56 +99,258 @@ color: #FF4545;
     display: flex;
     align-items: center;
     font: normal normal normal 16px/21px Roboto;
-letter-spacing: 0px;
-color: #C8242F;
-margin-bottom: 6%;
+    letter-spacing: 0px;
+    color: #C8242F;
+    margin-bottom: 6%;
 }
 
-@media screen and (max-width:1110px) {
-    .asi-con{
+#asi
+{
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: #C8242F;
+    text-decoration: none;
+    margin-left: 11px;
+}
+#asi2
+{
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: #3E3E3E;
+    text-decoration: none;
+    margin-left: 11px;
+}
+.icon{
+    width: 23px;
+    height: 34px;
+    margin-left: 17px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+ }
+
+ .options
+ {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+ }
+ .asi-con
+{
+    display: flex;
+    justify-content: space-between;
+}
+/* main code for dashboard */
+
+body div{
+    display: flex;
+}
+
+#label{
+    font: 30px/39px Roboto;
+    margin-top: 14px;
+    margin-left: 15px;
+}
+main{
+    background: #FAFAFA;
+}
+
+#items{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    margin-top: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 195px;
+    background-color: white;
+    justify-content: center;
+}
+
+.iconmain{
+    width: 34px;
+    height: 34px;
+    margin-top: 31px;
+    margin-right: 12px;
+}
+
+.num{
+    font: 25px/33px Roboto;
+    color: #3E3E3E;
+}
+
+.subitem{
+    margin-top: 31px;
+    display: block;
+}
+
+.title{
+    font: 15px/20px Roboto;
+    color: #3E3E3E;
+}
+
+#graph{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#graph div{
+    background-color: white;
+}
+
+#dgraph{
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+#pchart{
+    width: 100%;
+    height: 330px;
+    display: block;
+}
+
+.sale{
+    font: 22px/29px Roboto;
+    margin-bottom: 20px;
+}
+
+nav a{
+    font: 12px/16px Roboto;
+    color: #ADADAD;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#dgraphdiv{
+    width: 60%;
+    padding: 2%;
+    flex-direction: column;
+}
+
+#pchartdiv{
+    width: 30%;
+    padding: 2%;
+    flex-direction: column;
+}
+
+#info{
+    display: flex;
+    font: 15px/20px Roboto;
+    color: #3E3E3E;
+    padding: 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#info img{
+    width: 18px;
+    height: 18px;
+}
+
+.country div{
+    width: 120px;
+}
+
+#tab-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+th{
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 1.5px;
+    color: #ADADAD;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    border-spacing: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+tr{
+    vertical-align: middle;
+}
+
+tbody{
+    text-align: left;
+    font: 15px/20px Roboto;
+    color: #3E3E3E;
+}
+
+td{
+    border-bottom: 1px solid whitesmoke;
+}
+
+#inv{
+    font: 22px/29px Roboto;
+    color: #3E3E3E;
+}
+
+#view{
+    font: normal normal normal 12px/16px Roboto;
+    color: #C8242F;
+}
+
+td div{
+    width: fit-content;
+    padding: 2px 12px;
+    border-radius: 5px;
+    font: 15px/20px Roboto;
+}
+
+#paid{
+    background: #EBFFEF;
+    color: #3CDD5F;
+}
+
+#fail{
+    background: #FFF5F5;
+    color: #FF4545;
+}
+
+#pending{
+    background: #F8F8F8;
+    color: #BABABA;
+}
+
+/* media query */
+
+@media screen and (max-width:1120px){
+    #graph{
         flex-direction: column;
-    }
-    .options{
-        flex-direction: row;
-        width: unset;
-        flex-wrap: wrap;
-        height: unset;
-
-    }
-    .mainana{
+    }   
+    #dgraphdiv{
         width: unset;
     }
-    .sidebar{
-        margin: 0px;
+    #pchartdiv{
+        width: unset;
     }
+    .main{
+        width: 82%;
+    }
+}
 
-}
-@media screen and (max-width:855px) {
-    .midcontain
-    {
-        flex-direction: column;
-    background-color: whitesmoke;
-    }
-    .graph{
-        margin: auto;
-        background: whitesmoke;
-        width:98%;
-    }
-    .pie{
-        margin: auto;
-        background: whitesmoke;
-        width:81%;
-    }
-    .country{
-        margin-left: unset;
-    }
-    .container
-    {
-        background-color: whitesmoke;
-        margin:auto;
-    }
-    
-}
+
 /* header */
 @media screen and (max-width:700px) {
     #m {
@@ -563,6 +424,7 @@ margin-bottom: 6%;
         height: 17px;
     }
 }
+
 @media screen and (max-width:499px) {
 
     #m {
@@ -588,6 +450,10 @@ margin-bottom: 6%;
     }
 }
 
+
+
+
+
 /* sidebar */
 @media screen and (max-width:1110px) {
     .asi-con{
@@ -599,9 +465,9 @@ margin-bottom: 6%;
         flex-wrap: wrap;
 
     }
-    .mainana{
+    /* .mainana{
         width: unset;
-    }
+    } */
     .sidebar{
         margin: 0px;
     }
